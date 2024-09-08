@@ -1,0 +1,24 @@
+/* Basic  */
+body, h1, h2, h3, p, ul, table, td, th, form, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body  */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #a8e063, #56ab2f);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header area */
+header {
+    background: linear-gradient(135deg, #2e8b57, #006400);
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid #fff;
+    position: relative;
+}
