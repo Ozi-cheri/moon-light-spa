@@ -254,3 +254,29 @@ button:hover {
     background-color: #1b5e20;
     transform: scale(1.05);
 }
+
+/* Thank You Message */
+#thank-you-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #e6ffe6;
+    color: #2e8b57;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    background: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+/* Image styling with green border */
+img {
+    border: 5px solid #2e8b57; /* Green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
