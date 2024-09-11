@@ -33,9 +33,8 @@ The website includes the following key pages:
 
 - **Responsive Design**: The website is fully responsive and adjusts to different screen sizes for desktop and mobile.
 - **Multi-Page Layout**: Consists of multiple HTML pages that are interlinked, providing a smooth user navigation experience.
-- **Contact Form**: A functional form where users can submit their name, email, and inquiries. After submitting, they are redirected to a confirmation page.
-- **Simple and Clean Design**: The website uses minimalistic design principles for a clean, professional look.
-- **Custom CSS Styling**: All styling is done using CSS, focusing on layout, typography, and colors to enhance the user experience.
+- **Contact Form**: it is functional form where users can submit their name, email, and inquiries. After submitting, they are redirected to a confirmation page.
+- **User Experience.
 
 ## Project Structure
 
@@ -61,7 +60,7 @@ The website includes the following key pages:
 ## Pages
 
 ### 1. `index.html`
-The homepage serves as an introduction to Moon Light Spa. It contains:
+The homepage serves as an introduction to Moon Light Spa. It contains the following:
 - A welcome message.
 - An overview of available services.
 - Navigation links to the pricing and contact pages.
@@ -69,17 +68,27 @@ The homepage serves as an introduction to Moon Light Spa. It contains:
 ### 2. `prices.html`
 This page outlines the pricing structure for different spa services, such as massages, facials, and other treatments. The prices are presented in a simple table or grid format.
 
+![Reference image](/assets/images/screenshot4.png)
+
+There are also prices for special treatment such as couple's massage,scalp massage ,pregnant women massage etc.
+
+![Reference image](/assets/images/screenshot3.png)
+
 ### 3. `contact.html`
 The contact page includes a form for visitors to fill out. The form typically includes fields for:
 - Name
 - Email address
-- Subject
 - Message
+
+![Reference image](/assets/images/screenshot5.png)
+
 
 When the form is submitted, users are redirected to the thank-you page to confirm that their message was sent successfully.
 
 ### 4. `thank-you.html`
 The thank-you page is displayed after a user successfully submits the contact form. It includes a message thanking the visitor for their inquiry and may provide further instructions or a link to return to the homepage.
+
+![Reference image](/assets/images/screenshot1.png)
 
 ## Styles
 
