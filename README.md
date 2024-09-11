@@ -15,8 +15,8 @@
 7. [Usage](#usage)
 8. [Future Improvements](#future-improvements)
 9. [Contributing](#contributing)
-10. [License](#license)
-11. [Contact](#contact)
+10. 
+
 
 ## Overview
 
