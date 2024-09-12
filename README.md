@@ -108,7 +108,8 @@ header h1 {
 In this project the primary font used here is Arial which is part of the sans-serif family.
 
 ## Features Left to Implement
-I would like to integrate a referral feature where users earn rewards for referring friends and realtives.
+
+* I would like to integrate a referral feature where users earn rewards for referring friends and realtives.
 
 ## Main Technologies Used 
 * Html (Hyper Text Markup Language) used to structure the content of web page.
@@ -118,8 +119,8 @@ I would like to integrate a referral feature where users earn rewards for referr
 
 ## Responsive Testing
 * Responsive Testing On Screen Devices and Browsers
-The game is responsive,looks good and works on all standard sizes.
-The game is functional and looks good when tested with Chrome, Firefox, Microsoft Egde browsers.
+  * The game is responsive,looks good and works on all standard sizes.
+  * The game is functional and looks good when tested with Chrome, Firefox, Microsoft Egde browsers.
 
 ## Bugs
 
@@ -132,7 +133,7 @@ The game is functional and looks good when tested with Chrome, Firefox, Microsof
    ![Reference image](/assets/images/screenshot11.png)
 
 * HTML
-   * No errors were found when tested throuhg  [w3c validator](https://validator.w3.org)
+   * No errors were found when tested through [w3c validator](https://validator.w3.org)
 
     ![Reference image](/assets/images/screenshot10.png)
 
@@ -170,8 +171,11 @@ The game is functional and looks good when tested with Chrome, Firefox, Microsof
 
    ### Content
 
-   Code Institute LMS (https://codeinstitute.net)
-   Image used for the home page taken from pexel
+  * Code Institute LMS (https://codeinstitute.net)
+  * Image used for the home page taken from pexel (https://www.pexels.com)
+  * Home  page content from  Wanpen Thaimassage (https://www.wanpen-thaimassage.com) 
+  * w3school (https://www.w3schools.com)
+  * Stack overflow (https://stackoverflow.com)
    
 
 
