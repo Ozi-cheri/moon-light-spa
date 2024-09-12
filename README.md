@@ -1,7 +1,7 @@
 
 # Moon Light Spa
 
-**Moon Light Spa** is a simple multi-page website built with HTML and CSS. It consists of various pages such as a homepage, pricing page, contact page, and a thank-you page. This project is designed to showcase a professional spa service, allowing users to explore offered services, view pricing details, and contact the spa for inquiries. Having worked in the hospitality industry for years, i gained experience in understanding the needs and expectations of guests from different parts of the world seeking relaxation,rejuvenationand over-all sense of wellbeing. This inspisred me to develop the concept of **Moon Light Spa**, which combines the luxurious services of traditional spa with a unique,immersive experience that appeals to both body and mind.
+**Moon Light Spa** is a simple multi-page website built with HTML and CSS. It consists of various pages such as a homepage, pricing page, contact page, and a thank-you page. This project is designed to showcase a professional spa service, allowing users to explore offered services, view pricing details, and contact the spa for inquiries. Having worked in the hospitality industry for years, i gained experience in understanding the needs and expectations of guests from different parts of the world seeking relaxation,rejuvenation and over-all sense of wellbeing. This inspisred me to develop the concept of **Moon Light Spa**, which combines the luxurious services of traditional spa with a unique,immersive experience that appeals to both body and mind.
 
 ![Reference image](/assets/images/screenshot6.png)
 
@@ -10,13 +10,8 @@
 2. [Features](#features)
 3. [Project Structure](#project-structure)
 4. [Pages](#pages)
-5. [Styles](#styles)
-6. [Getting Started](#getting-started)
-7. [Usage](#usage)
-8. [Future Improvements](#future-improvements)
-9. [Contributing](#contributing)
-10. 
-
+5. [User Experience](#user-experience)
+7. [Typography(#typography)]
 
 ## Overview
 
@@ -33,8 +28,7 @@ The website includes the following key pages:
 
 - **Responsive Design**: The website is fully responsive and adjusts to different screen sizes for desktop and mobile.
 - **Multi-Page Layout**: Consists of multiple HTML pages that are interlinked, providing a smooth user navigation experience.
-- **Contact Form**: it is functional form where users can submit their name, email, and inquiries. After submitting, they are redirected to a confirmation page.
-- **User Experience.
+- **Contact Form**: it is a functional form where users can submit their name, email, and inquiries. After submitting, they are redirected to a confirmation page.
 
 ## Project Structure
 
@@ -47,15 +41,6 @@ The website includes the following key pages:
 └── css/styles.css
     └── images/
 ```
-
-### File Overview:
-
-1. **index.html**: The main landing page with an introduction to Moon Light Spa and its services.
-2. **prices.html**: A detailed pricing table for spa services.
-3. **contact.html**: A form where users can reach out to the spa with their questions or requests.
-4. **thank-you.html**: A simple page that thanks users for submitting the contact form.
-5. **styles.css**: The stylesheet that contains all the CSS for styling the pages.
-6. **assets/images/**: A folder where any images (such as logos or service images) are stored.
 
 ## Pages
 
@@ -90,6 +75,41 @@ The thank-you page is displayed after a user successfully submits the contact fo
 
 ![Reference image](/assets/images/screenshot1.png)
 
+## User Experience 
+
+* As a user, i want to easily book an appoinment online and personalized my treatment.
+* As a user, after booking, i want to receive a confirmation message.
+* As a user, upon arrival at the spa, the staff already knows my preference because of my online booking.
+* As a user, my treatment is customized according to the preference i made during online booking.
+
+## Typography
+
+I used courier New fonts since it makes code easier to read and is one of the most commonly used in some programming.
+
 ## Styles
+
+### Header Topic Styling
+
+A large serif font with bold styling and uppercase transformation were used for emphasis.
+
+```
+header h1 {
+    font-size: 4.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+```
+In this project the primary font used here is Arial which is part of the sans-serif family.
+
+## Features Left to Implement
+I would like to integrate a referral feature where users earn rewards for referring friends and realtives.
+
+## Main Technologies Used 
+* Html (Hyper Text Markup Language) used to structure the content of web page
+* Css(Cascading Style Sheets) used for styling and layout of the page
+
 
 
