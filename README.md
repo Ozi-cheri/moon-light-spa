@@ -11,7 +11,7 @@
 3. [Project Structure](#project-structure)
 4. [Pages](#pages)
 5. [User Experience](#user-experience)
-7. [Typography(#typography)]
+7. [Typography](#typography)
 
 ## Overview
 
@@ -22,7 +22,10 @@ The website includes the following key pages:
 - **Homepage (index.html)**: An overview of the Moon Light Spa services.
 - **Pricing Page (prices.html)**: Detailed pricing information for various spa services.
 - **Contact Page (contact.html)**: A contact form for customers to submit inquiries or make reservations.
-- **Thank You Page (thank-you.html)**: A confirmation page that appears after a successful form submission.
+- **Thank You Page (thank-you.html)**: A confirmation page that appears after a successful form submission, below is the sample code
+
+ ![Reference image](/assets/images/screenshot9.png)
+
 
 ## Features
 
@@ -108,8 +111,77 @@ In this project the primary font used here is Arial which is part of the sans-se
 I would like to integrate a referral feature where users earn rewards for referring friends and realtives.
 
 ## Main Technologies Used 
-* Html (Hyper Text Markup Language) used to structure the content of web page
-* Css(Cascading Style Sheets) used for styling and layout of the page
+* Html (Hyper Text Markup Language) used to structure the content of web page.
+* Css(Cascading Style Sheets) used for styling and layout of the page.
+* Javascript used for form validation.
+* Github pages used for hosting the deployed site.
+
+## Responsive Testing
+* Responsive Testing On Screen Devices and Browsers
+The game is responsive,looks good and works on all standard sizes.
+The game is functional and looks good when tested with Chrome, Firefox, Microsoft Egde browsers.
+
+## Bugs
+
+
+## Validation Testing
+
+* CSS
+   * No errors where found when tested through [css validator](https://jigsaw.w3.org)
+
+   ![Reference image](/assets/images/screenshot11.png)
+
+* HTML
+   * No errors were found when tested throuhg  [w3c validator](https://validator.w3.org)
+
+    ![Reference image](/assets/images/screenshot10.png)
+
+## Accessibilty
+
+* Lighthouse Report was used to measure the quality of the project performance,accessibilty, best pratices SEO scores.
+
+
+## Deployment
+
+* The site was deployed to Github as follows:
+   * Navigate to setting area in the Github repository, and then page section.
+   * Select main branch from the source section and save.
+   * Deployment to the site starts.
+   The live link can be found here:
+
+   https://ozi-cheri.github.io/moon-light-spa/
+
+
+   ## Local Clone
+   * Sign up or log in on Github
+   * Click "code" button and copy the provided link.
+   * Enter git clone in the terminal,paste the link and run it.
+
+   ```
+   git clone https://github.com/ozi-cheri/moon-light-spa.git
+   ```
+
+   ## Forking The Github Repository
+
+   * Locate the Github log in[repository](#repository)
+   * Click the "fork" button at the the right top corner of the page.
+
+   ## Credits
+
+   ### Content
+
+   Code Institute LMS (https://codeinstitute.net)
+   Image used for the home page taken from pexel
+   
+
+
+
+
+   ## Acknowledgement
+
+   Code Institute for the platform
+
+
 
 
 
