@@ -1,9 +1,9 @@
 
 # Moon Light Spa
 
-**Moon Light Spa** is a simple multi-page website built with HTML and CSS. It consists of various pages such as a homepage, pricing page, contact page, and a thank-you page. This project is designed to showcase a professional spa service, allowing users to explore offered services, view pricing details, and contact the spa for inquiries. Having worked in the hospitality industry for years, i gained experience in understanding the needs and expectations of guests from different parts of the world seeking relaxation,rejuvenation and over-all sense of wellbeing. This inspisred me to develop the concept of **Moon Light Spa**, which combines the luxurious services of traditional spa with a unique,immersive experience that appeals to both body and mind.
+**Moon Light Spa** is a simple multi-page website built with HTML and CSS. It consists of various pages such as a homepage, pricing page, contact page, and a thank-you page. This project is designed to showcase a professional spa service, allowing users to explore offered services, view pricing details, and contact the spa for inquiries. Having worked in the hospitality industry for years (Spa and Fitness to be precised), i gained experience in understanding the needs and expectations of guests from different parts of the world seeking relaxation,rejuvenation and over-all sense of wellbeing. This inspisred me to develop the concept of **Moon Light Spa**, which combines the luxurious services of traditional spa with a unique,immersive experience that appeals to both body and mind.
 
-![Reference image](/assets/images/screenshot6.png)
+![Reference image](/assets/images/screenshot12.png)
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -144,7 +144,7 @@ I discover my project was broken when viewed on mobile device. Media query was a
 
 * Lighthouse Report was used to measure the quality of the project performance,accessibilty, best pratices SEO scores.
 
-
+![Reference image](/assets/images/screenshot13.png)
 ## Deployment
 
 * The site was deployed to Github as follows:
