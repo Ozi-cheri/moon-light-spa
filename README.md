@@ -114,7 +114,6 @@ In this project the primary font used here is Arial which is part of the sans-se
 ## Main Technologies Used 
 * Html (Hyper Text Markup Language) used to structure the content of web page.
 * Css(Cascading Style Sheets) used for styling and layout of the page.
-* Javascript used for form validation.
 * Github pages used for hosting the deployed site.
 
 ## Responsive Testing
