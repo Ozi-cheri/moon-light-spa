@@ -124,6 +124,9 @@ In this project the primary font used here is Arial which is part of the sans-se
 
 ## Bugs
 
+* Solved Bug
+I discover my project was broken when viewed on mobile device.Flexbox was used to make the project  responsive on devices.
+
 
 ## Validation Testing
 
@@ -177,9 +180,6 @@ In this project the primary font used here is Arial which is part of the sans-se
   * w3school (https://www.w3schools.com)
   * Stack overflow (https://stackoverflow.com)
    
-
-
-
 
    ## Acknowledgement
 
