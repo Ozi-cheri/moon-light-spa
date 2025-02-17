@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Share your experience at Moon Light Spa. We value your feedback to improve our services.">
-    <title>Moon Light Spa</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Experience serenity and rediscover your inner peace at Moon Light Spa. Offering traditional Asian massage techniques."
+    />
+    <meta
+      name="keywords"
+      content="spa, massage, wellness, relaxation, traditional Asian massage, Moon Light Spa"
+    />
+    <meta name="author" content="Moon Light Spa" />
+    <title>Moon Light Spa - Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+  </head>
 
 <body>
     <header>
-      
-        <h1 id="logo">Moon Light Spa</h1>
-      
-      <input type="checkbox" id="nav-toggle" name="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label">X</label>
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="prices.html">Prices</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="feedback.html">Feedback</a></li>
+        <h1>Moon Light Spa</h1>
+        <label for="menu-toggle" class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </label>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <nav>
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html" >About Us</a></li>
+            <li><a href="prices.html">Prices</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
         </ul>
-      </nav>
-    </header>
-
+    </nav>
+</header>
     <section>
         <h2>We Value Your Feedback</h2>
         <p>Your experience matters to us. Please take a moment to share your thoughts and help us improve our services.</p>
-        <form action="thank-you.html" method="get">
+        <div class="contact-form-box">
+            <h3>Feedback Form</h3>
+            <form id="feedback" action="thank-you.html" method="GET">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
 
-            <label for="message">Your Feedback:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
 
-            <button type="submit">Submit Feedback</button>
-        </form>
-    </section>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Moon Light Spa. All rights reserved.</p>
-    </footer>
+<footer>
+    <p>&copy; 2025 Moon Light Spa. All rights reserved.</p>
+</footer>
 </body>
 
 </html>
+

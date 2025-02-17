@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <!-- Link to external style-sheet -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Experience serenity and rediscover your inner peace at Moon Light Spa. Offering traditional Asian massage techniques."
+    />
+    <meta
+      name="keywords"
+      content="spa, massage, wellness, relaxation, traditional Asian massage, Moon Light Spa"
+    />
+    <meta name="author" content="Moon Light Spa" />
+    <title>Moon Light Spa - Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+  </head>
 <body>
-    <!-- Header section -->
+    <!--Header section-->
     <header>
-      
-        <h1 id="logo">Moon Light Spa</h1>
-      
-      <input type="checkbox" id="nav-toggle" name="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label">X</label>
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="prices.html">Prices</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="feedback.html">Feedback</a></li>
-        </ul>
-      </nav>
+        <h1>Moon Light Spa</h1>
+        <label for="menu-toggle" class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </label>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <nav>
+            <ul>
+                <!--Links to pages-->
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" >About Us</a></li>
+                <li><a href="prices.html" >Prices</a></li>
+                <li><a href="contact.html" >Contact Us</a></li>
+                <li><a href="feedback.html" >Feedback</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section>
@@ -37,7 +47,7 @@
             <div class="contact-info-map">
                 <div class="contact-info-box">
                     <h3>Contact Information</h3>
-                    <!-- Contact information starts here -->
+                <!--Contact information starts here-->
                     <p><strong>Address:</strong> Moon Light Spa, 456 Serenity Blvd, Heidelberg, Germany</p>
                     <p><strong>Phone:</strong> +49 123 456 789</p>
                     <p><strong>Email:</strong> <a href="mailto:info@moonlightspa.de">info@moonlightspa.de</a></p>
@@ -78,21 +88,7 @@
     <footer>
         <p>&copy; 2025 Moon Light Spa. All rights reserved.</p>
     </footer>
-
-    <!-- Optional JavaScript -->
-    <script>
-        // Toggle nav menu for mobile screens
-        const navToggle = document.getElementById('nav-toggle');
-        const navMenu = document.querySelector('nav ul');
-
-        navToggle.addEventListener('change', () => {
-            if (navToggle.checked) {
-                navMenu.style.display = 'block';
-            } else {
-                navMenu.style.display = 'none';
-            }
-        });
-    </script>
 </body>
 
 </html>
+
