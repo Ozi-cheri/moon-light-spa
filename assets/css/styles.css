@@ -344,7 +344,7 @@ nav ul {
     margin: 0;
     padding: 0;
     justify-content: flex-end;
-    align-items: right;
+    align-items: center;
     gap: 0.3rem;
 }
 
@@ -413,47 +413,3 @@ nav ul li a:hover {
     }
 }
 
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
-
-.error-container {
-    max-width: 600px;
-    padding: 20px;
-    background: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-h1 {
-    font-size: 4em;
-    color: #ff6b6b;
-}
-
-p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-a {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-a:hover {
-    background-color: #45a049;
-}
