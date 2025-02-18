@@ -1,10 +1,10 @@
-/* Basic  */
+
 body, h1, h2, h3, p, ul, table, td, th, form, img {
     margin: 0;
     padding: 0;
 }
 
-/* Body  */
+
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #a8e063, #56ab2f);
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header area */
+
 header {
     background: linear-gradient(135deg, #2e8b57, #006400);
     color: #fff;
@@ -33,7 +33,7 @@ header h1 {
     letter-spacing: 4px;
 }
 
-/* Navigation */
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -68,7 +68,7 @@ nav ul li a::after {
 }
 
 
-/* Section  */
+
 section {
     padding: 3rem;
     margin: 2rem auto;
@@ -79,7 +79,7 @@ section {
     animation: fadeIn 1s ease-out;
 }
 
-/* Keyframes animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -91,14 +91,14 @@ section {
     }
 }
 
-/* Price Tables */
+
 .price-tables {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-/* Price Table */
+
 .price-table {
     flex: 1 1 30%;
     background: #f1f1f1;
@@ -115,7 +115,7 @@ section {
     color: #2e8b57;
 }
 
-/* Table */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -164,7 +164,7 @@ td.treatment:hover::after {
     width: max-content;
 }
 
-/* Contact Container */
+
 .contact-container {
     display: flex;
     justify-content: space-between;
@@ -172,7 +172,7 @@ td.treatment:hover::after {
     flex-wrap: wrap;
 }
 
-/* Contact Info and Map */
+
 .contact-info-map {
     flex: 1;
     display: flex;
@@ -180,7 +180,7 @@ td.treatment:hover::after {
     gap: 2rem;
 }
 
-/* Contact Info Box */
+
 .contact-info-box {
     background: #f1f1f1;
     border-radius: 15px;
@@ -188,14 +188,14 @@ td.treatment:hover::after {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     border: 3px solid #2e8b57;
 }
-/* Map Container */
+
 .map-container {
     margin-top: 1rem;
     border-radius: 15px;
     overflow: hidden;
 }
 
-/* Contact Form Box */
+
 .contact-form-box {
     flex: 1;
     background: #f9f9f9;
@@ -205,7 +205,7 @@ td.treatment:hover::after {
     border: 3px solid #2e8b57;
 }
 
-/* Contact Form Styling */
+
 form {
     display: grid;
     gap: 1rem;
@@ -246,7 +246,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Thank You Message */
+
 #thank-you-message {
     margin-top: 1rem;
     padding: 1rem;
@@ -256,7 +256,7 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer styling */
+
 footer {
     background: #2e8b57;
     color: #fff;
@@ -266,9 +266,9 @@ footer {
 }
 
 
-/* Media Query for Responsiveness*/
 
-/* Mobile Devices (max-width: 600px) */
+
+
 @media (max-width: 600px) {
     header h1 {
         font-size: 1.8rem; 
@@ -298,18 +298,18 @@ footer {
 
 
 img {
-    width: 100%;         /* Ensures the image scales according to the container's width */
-    max-width: 100%;     /* Prevents the image from exceeding the container's width */
-    height: auto;        /* Maintains aspect ratio */
-    border: 5px solid #2e8b57; /* Green border */
-    border-radius: 10px; /* Optional rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
-    display: block;      /* Ensures it behaves like a block element */
-    margin: 0 auto;      /* Centers the image horizontally */
+    width: 100%;         
+    max-width: 100%;     
+    height: auto;        
+    border: 5px solid #2e8b57; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: block;      
+    margin: 0 auto;      
 }
 
 
-/* Hamburger Menu Styling */
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -334,18 +334,18 @@ img {
 }
 
 .menu-toggle {
-    display: none; /* Hide the checkbox */
+    display: none; 
 }
 
-/* Desktop Navigation */
+
 nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
     justify-content: flex-end;
-    align-items: center;
-    gap: 0.5rem;
+    align-items: right;
+    gap: 0.3rem;
 }
 
 nav ul li a {
@@ -363,7 +363,7 @@ nav ul li a:hover {
 
 
 
-/* Mobile View */
+
 @media (max-width: 600px) {
     .hamburger {
         display: flex;
@@ -407,8 +407,53 @@ nav ul li a:hover {
         transform: rotate(-45deg) translate(6px, -6px);
     }
 
-    /* Optional: Adjust spacing around welcome message */
+    
     .welcome-message {
         padding: 3rem;
     }
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.error-container {
+    max-width: 600px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 4em;
+    color: #ff6b6b;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #45a049;
 }
