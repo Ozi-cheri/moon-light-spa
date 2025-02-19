@@ -7,11 +7,18 @@
 
 ## Table of Contents
 1. [Overview](#overview)
-2. [Features](#features)
-3. [Project Structure](#project-structure)
-4. [Pages](#pages)
-5. [User Experience](#user-experience)
-7. [Typography](#typography)
+2. [Existing Features](#existing-features)
+3. [User Experience](#user-experience)
+4. [Typography](#typography)
+5. [Color Scheme](#color-scheme)
+6. [Features Enhancement](#future-enhancement)
+7. [Technology Used](#technology-used)
+8. [Browser Compatability](#browser-compatability)
+9. [Manual Testing](#manual-testing)
+10. [Validation Testing](#validation-testing)
+11. [Bugs](#bugs)
+12. [Deployment](#deployment)
+13. [Credits](#credits)
 
 ## Overview
 
@@ -20,6 +27,7 @@ Moon Light Spa is a website designed to provide information about spa services, 
 The website includes the following key pages:
 
 - **Homepage (index.html)**: An overview of the Moon Light Spa services.
+- **Aboutpage (about.html)**: Story about moon light spa
 - **Pricing Page (prices.html)**: Detailed pricing information for various spa services.
 - **Contact Page (contact.html)**: A contact form for customers to submit inquiries or make reservations.
 - **Thank You Page (thank-you.html)**: A confirmation page that appears after a successful form submission, below is the sample code
@@ -27,33 +35,26 @@ The website includes the following key pages:
  ![Reference image](/assets/images/screenshot9.png)
 
 
-## Features
+## Existing Features
 
-- **Responsive Design**: The website is fully responsive and adjusts to different screen sizes for desktop and mobile.
-- **Multi-Page Layout**: Consists of multiple HTML pages that are interlinked, providing a smooth user navigation experience.
-- **Contact Form**: it is a functional form where users can submit their name, email, and inquiries. After submitting, they are redirected to a confirmation page.
+* Navigation Bar
 
-## Project Structure
+This Features on all four pages, the full responsive navigation bar includes links to the, Home page, About page, price page, Contact page and is identical in each page for easy navigation.This section  allows the user to easily navigate from page to page across all devices without having to revert back to the previous page.
 
-```
-├── index.html
-├── prices.html
-├── contact.html
-├── thank-you.html
-├── assets
-└── css/styles.css
-    └── images/
-```
 
-## Pages
 
-### 1. `index.html`
-The homepage serves as an introduction to Moon Light Spa. It contains the following:
-- A welcome message.
-- An overview of available services.
-- Navigation links to the pricing and contact pages.
 
-### 2. `prices.html`
+* Home page
+
+The homepage serves as an introduction to Moon Light Spa. It contains the welcome message, Navigation links that makes the site more accessable for easy navigation to other pages.
+
+
+* About Page
+
+The about page shares the story of **moon light spa**, what we do , our mission to create awareness of the impotance of body massages and more. 
+ 
+* Price page
+
 This page outlines the pricing structure for different spa services, such as massages, facials, and other treatments. The prices are presented in a simple table or grid format.
 
 ![Reference image](/assets/images/screenshot4.png)
@@ -62,18 +63,17 @@ There are also prices for special treatment such as couple's massage,scalp massa
 
 ![Reference image](/assets/images/screenshot3.png)
 
-### 3. `contact.html`
-The contact page includes a form for visitors to fill out. The form typically includes fields for:
-- Name
-- Email address
-- Message
+* Contact page 
+
+The contact page provides our contact information (address, phone number, email) and a contact form that allows users to send us messages or ask questions. This page also includes a map with our physical location marked.
+
 
 ![Reference image](/assets/images/screenshot5.png)
 
 
 When the form is submitted, users are redirected to the thank-you page to confirm that their message was sent successfully.
 
-### 4. `thank-you.html`
+* Thank-you page
 The thank-you page is displayed after a user successfully submits the contact form. It includes a message thanking the visitor for their inquiry and may provide further instructions or a link to return to the homepage.
 
 ![Reference image](/assets/images/screenshot1.png)
@@ -82,49 +82,82 @@ The thank-you page is displayed after a user successfully submits the contact fo
 
 * As a user, i want to easily book an appoinment online and personalized my treatment.
 * As a user, after booking, i want to receive a confirmation message.
+
 * As a user, upon arrival at the spa, the staff already knows my preference because of my online booking.
+
 * As a user, my treatment is customized according to the preference i made during online booking.
+
+* A clean and calming design to reflect the spa's atmosphere so I feel relaxed while browsing.
+
+Easy navigation to browse services and information quickly.
+
+* As a user i want a consistent color scheme promoting relaxation and elegance to align with the spa theme.
+
+* As a user i want readable fonts and well-spaced text for easy reading.
+
+* As a user, i want a visual hierarchy guiding me to important sections without confusion.
+
+ * As a user, i want a responsive design that works well on my mobile and desktop devices.
+
+* As a user, i want an intuitive layout so I can easily find the information I need without getting lost.
+
 
 ## Typography
 
-I used courier New fonts since it makes code easier to read and is one of the most commonly used in some programming.
+Font: The font used throughout the website is Arial, sans-serif and Playfair Display for the header This font choice ensures readability across different devices and provides a clean, modern look to the content.
 
-## Styles
+## Color Scheme
 
-### Header Topic Styling
+The color palette chosen for this project is inspired by nature and relaxation, consisting of various shades of green:  
+2e8b57 (Sea Green) – Symbolizes harmony, balance, and a sense of renewal.
+006400 (Dark Green) – Represents stability, growth, and a connection to nature.a8e063 (Light Green) – Evokes freshness, energy, and vitality. 6ab2f (Lime Green) – Conveys a sense of renewal, rejuvenation, and well-being.
 
-A large serif font with bold styling and uppercase transformation were used for emphasis.
+## Features Enhancement
 
-```
-header h1 {
-    font-size: 4.5rem;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-}
+* I would like to integrate a referral feature where users earn rewards for referring friends and realtives, Contact Form for customer inquiries,bBooking system for online reservations,testimonials section with customer reviews, gallery showcasing spa facilities and treatments.
 
-```
-In this project the primary font used here is Arial which is part of the sans-serif family.
-
-## Features Left to Implement
-
-* I would like to integrate a referral feature where users earn rewards for referring friends and realtives.
-
-## Main Technologies Used 
+## Technology Used 
 * Html (Hyper Text Markup Language) used to structure the content of web page.
 * Css(Cascading Style Sheets) used for styling and layout of the page.
 * Github pages used for hosting the deployed site.
 
-## Responsive Testing
-* Responsive Testing On Screen Devices and Browsers
-  * The game is responsive,looks good and works on all standard sizes.
-  * The game is functional and looks good when tested with Chrome, Firefox, Microsoft Egde browsers.
 
-## Bugs
 
-* Solved Bug
-I discover my project was broken when viewed on mobile device. Media query was added to make it responsive on mobile device.
+## Browser Compatability
+
+### Responsive Testing
+* Responsive testing was done on the following  browsers Google chrome, Firefox, Microsoft Egde browsers, Safari.
+
+
+
+|Browser	    |           Outcome	                             |    Result  |
+|---------------|------------------------------------------------|------------|
+|1.Google Chrome| Home page,about page,price and contact pages   |    Pass    |
+|               | looks good as supposed.                        |
+|	            |                                                |
+|2.Firefox	    | Home page,about page,price and contact pages   |
+|	            | looks good as supposed.                        |    Pass
+|3.Safari	-   | Home page,about page,price and contact pages   |
+|	            | looks good as supposed.                        |    Pass   
+|4.Microsoft Edge| Home page,about page,price and contact pages  |   	
+|               |   looks good as supposed.                       |    Pass
+
+
+
+## Manual Testing
+
+
+* I conducted manual testing on the following devices to check for responsiveness.
+
+
+
+|  Devices              |     Home page |    About Page | Price   | Contact |Thank you         
+|-----------------------|---------------|---------------|---------|---------|-----------|
+|  Iphone xr            |  Pass         | Pass          | Pass    | Pass    |Pass
+|  Iphone pro max       |  Pass         | Pass          | Pass    | Pass    |Pass
+|  Lenovo ipad          |  Pass         | Pass          | Pass    | Pass    |Pass
+|  Mac latop            |  Pass         | Pass          | Pass    | Pass    |Pass
+
 
 
 ## Validation Testing
@@ -144,7 +177,20 @@ I discover my project was broken when viewed on mobile device. Media query was a
 * Lighthouse Report was used to measure the quality of the project performance,accessibilty, best pratices SEO scores.
 
 ![Reference image](/assets/images/screenshot13.png)
+
+
+  ## Bugs
+
+* Solved Bug
+I discover my project was broken when viewed on mobile device. Media query was added to make it responsive on mobile device.
+There was error when the contact form tested for validation. It was from the width of the map,it was corrected and it eventaully past the test.
+
+
+
+
+
 ## Deployment
+
 
 * The site was deployed to Github as follows:
    * Navigate to setting area in the Github repository, and then page section.
@@ -169,20 +215,21 @@ I discover my project was broken when viewed on mobile device. Media query was a
    * Locate the Github log in[repository](#repository)
    * Click the "fork" button at the the right top corner of the page.
 
+
    ## Credits
 
    ### Content
 
   * Code Institute LMS (https://codeinstitute.net)
   * Image used for the home page taken from pexel (https://www.pexels.com)
-  * Home  page content from  Wanpen Thaimassage (https://www.wanpen-thaimassage.com) 
   * w3school (https://www.w3schools.com)
   * Stack overflow (https://stackoverflow.com)
    
 
-   ## Acknowledgement
+   ## Acknowledgements
 
-   Code Institute for the platform
+   * Code Institute for the platform
+   * My Mentor Gareth McGirr for his supports and feedbacks.
 
 
 
