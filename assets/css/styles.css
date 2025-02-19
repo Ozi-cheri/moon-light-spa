@@ -136,34 +136,6 @@ td {
     border-bottom: 1px solid #ddd;
 }
 
-td.treatment {
-    position: relative;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-td.treatment:hover {
-    transform: scale(1.05);
-    background-color: #e0ffe0;
-}
-
-td.treatment:hover::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background: #333;
-    color: #fff;
-    padding: 0.5rem;
-    border-radius: 5px;
-    white-space: nowrap;
-    transform: translateY(5px);
-    font-size: 1.1rem;
-    z-index: 10;
-    width: max-content;
-}
-
 
 .contact-container {
     display: flex;
@@ -258,7 +230,7 @@ button:hover {
 
 
 footer {
-    background: #2e8b57;
+    background: #006400;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -318,7 +290,7 @@ img {
     width: 30px;
     height: 25px;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     position: absolute;
     top: 15px;
     right: 15px;
@@ -351,14 +323,13 @@ nav ul {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.rem;
     font-weight: bold;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.3s ease;
+    padding: 0.1rem 0.3rem;
 }
 
 nav ul li a:hover {
-    background-color: #333;
+    background-color: #5d896f;
 }
 
 
@@ -372,9 +343,9 @@ nav ul li a:hover {
     nav ul {
         display: none;
         flex-direction: column;
-        background-color: #2e8b57;
+        background-color: #006400;
         position: absolute;
-        top: 60px;
+        top: 50px;
         left: 0;
         width: 100%;
         padding: 0;
