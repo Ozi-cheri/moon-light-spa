@@ -1,7 +1,7 @@
 
 # Moon Light Spa
 
-**Moon Light Spa** is a simple multi-page website built with HTML and CSS. It consists of various pages such as a homepage, pricing page, contact page, and a thank-you page. This project is designed to showcase a professional spa service, allowing users to explore offered services, view pricing details, and contact the spa for inquiries. Having worked in the hospitality industry for years (Spa and Fitness to be precised), i gained experience in understanding the needs and expectations of guests from different parts of the world seeking relaxation,rejuvenation and over-all sense of wellbeing. This inspisred me to develop the concept of **Moon Light Spa**, which combines the luxurious services of traditional spa with a unique,immersive experience that appeals to both body and mind.
+**Moon Light Spa** is a simple multi-page website built with HTML and CSS. It consists of various pages such as a homepage, pricing page, contact page, and a thank-you page. This project is designed to showcase a professional spa service, allowing users to explore offered services, view pricing details, and contact the spa for inquiries. Having worked in the hospitality industry for years (Spa and Fitness to be precised), i gained experience in understanding the needs and expectations of guests from different parts of the world seeking relaxation,rejuvenation and over-all sense of wellbeing. This inspired me to develop the concept of **Moon Light Spa**, which combines the luxurious services of traditional spa with a unique,immersive experience that appeals to both body and mind.
 
 ![Reference image](/assets/images/screenshot.png)
 
@@ -30,10 +30,9 @@ The website includes the following key pages:
 - **Aboutpage (about.html)**: Story about moon light spa
 - **Pricing Page (prices.html)**: Detailed pricing information for various spa services.
 - **Contact Page (contact.html)**: A contact form for customers to submit inquiries or make reservations.
-- **Thank You Page (thank-you.html)**: A confirmation page that appears after a successful form submission, below is the sample code
+- **Thank You Page (thank-you.html)**: A confirmation page that appears after a successful form submission.
 
- ![Reference image](/assets/images/screenshot9.png)
-
+[⬆️ Back to Top](#top)
 
 ## Existing Features
 
@@ -42,16 +41,28 @@ The website includes the following key pages:
 This Features on all four pages, the full responsive navigation bar includes links to the, Home page, About page, price page, Contact page and is identical in each page for easy navigation.This section  allows the user to easily navigate from page to page across all devices without having to revert back to the previous page.
 
 
+![Reference image](/assets/images/navigation.png)
+
+
+
 
 
 * Home page
 
-The homepage serves as an introduction to Moon Light Spa. It contains the welcome message, Navigation links that makes the site more accessable for easy navigation to other pages.
+The homepage serves as an introduction to Moon Light Spa which  contains the welcome message.
+
+
+![Reference image](/assets/images/home.png)
+
 
 
 * About Page
 
 The about page shares the story of **moon light spa**, what we do , our mission to create awareness of the impotance of body massages and more. 
+
+
+![Reference image](/assets/images/aboutpage.png)
+
  
 * Price page
 
@@ -76,11 +87,15 @@ When the form is submitted, users are redirected to the thank-you page to confir
 * Thank-you page
 The thank-you page is displayed after a user successfully submits the contact form. It includes a message thanking the visitor for their inquiry and may provide further instructions or a link to return to the homepage.
 
-![Reference image](/assets/images/screenshot1.png)
+![Reference image](/assets/images/thankyoupage.png)
+
+
+[⬆️ Back to Top](#top)
+
 
 ## User Experience 
 
-* As a user, i want to easily book an appoinment online and personalized my treatment.
+* As a user, i want to easily book an appointment online and personalized my treatment.
 * As a user, after booking, i want to receive a confirmation message.
 
 * As a user, upon arrival at the spa, the staff already knows my preference because of my online booking.
@@ -89,7 +104,7 @@ The thank-you page is displayed after a user successfully submits the contact fo
 
 * A clean and calming design to reflect the spa's atmosphere so I feel relaxed while browsing.
 
-Easy navigation to browse services and information quickly.
+* Easy navigation to browse services and information quickly.
 
 * As a user i want a consistent color scheme promoting relaxation and elegance to align with the spa theme.
 
@@ -109,12 +124,17 @@ Font: The font used throughout the website is Arial, sans-serif and Playfair Dis
 ## Color Scheme
 
 The color palette chosen for this project is inspired by nature and relaxation, consisting of various shades of green:  
-2e8b57 (Sea Green) – Symbolizes harmony, balance, and a sense of renewal.
-006400 (Dark Green) – Represents stability, growth, and a connection to nature.a8e063 (Light Green) – Evokes freshness, energy, and vitality. 6ab2f (Lime Green) – Conveys a sense of renewal, rejuvenation, and well-being.
+* 2e8b57 (Sea Green) – Symbolizes harmony, balance, and a sense of renewal.
+* 006400 (Dark Green) – Represents stability, growth, and a connection to nature.
+* 8e063 (Light Green) – Evokes freshness, energy, and vitality. 
+* 6ab2f (Lime Green) – Conveys a sense of renewal, rejuvenation, and well-being.
+
+
+[⬆️ Back to Top](#top)
 
 ## Features Enhancement
 
-* I would like to integrate a referral feature where users earn rewards for referring friends and realtives, Contact Form for customer inquiries,bBooking system for online reservations,testimonials section with customer reviews, gallery showcasing spa facilities and treatments.
+* I would like to integrate a referral feature where users earn rewards for referring friends and realtives, Contact Form for customer inquiries,bBooking system for online reservations,testimonials section with customer reviews, gallery showcasing spa facilities and treatments, social media links.
 
 ## Technology Used 
 * Html (Hyper Text Markup Language) used to structure the content of web page.
@@ -176,16 +196,17 @@ The color palette chosen for this project is inspired by nature and relaxation, 
 
 * Lighthouse Report was used to measure the quality of the project performance,accessibilty, best pratices SEO scores.
 
-![Reference image](/assets/images/screenshot13.png)
+![Reference image](/assets/images/lighthousereport.png)
+
+
+[⬆️ Back to Top](#top)
 
 
   ## Bugs
 
 * Solved Bug
 I discover my project was broken when viewed on mobile device. Media query was added to make it responsive on mobile device.
-There was error when the contact form tested for validation. It was from the width of the map,it was corrected and it eventaully past the test.
-
-
+There was error when the contact form tested for validation. It was from the width of the map,this was corrected and it eventaully past the test.
 
 
 
@@ -194,11 +215,14 @@ There was error when the contact form tested for validation. It was from the wid
 
 * The site was deployed to Github as follows:
    * Navigate to setting area in the Github repository, and then page section.
-   * Select main branch from the source section and save.
-   * Deployment to the site starts.
-   The live link can be found here:
+   * Click on "New deployment".
+   * Choose "GitHub Pages" as the deployment method.
+   * Choose main branch as the branch you want to deploy.
+   * Click "Deploy".
 
-   https://ozi-cheri.github.io/moon-light-spa/
+   The live site can be found https://ozi-cheri.github.io/moon-light-spa
+
+  
 
 
    ## Local Clone
@@ -221,9 +245,19 @@ There was error when the contact form tested for validation. It was from the wid
    ### Content
 
   * Code Institute LMS (https://codeinstitute.net)
+
   * Image used for the home page taken from pexel (https://www.pexels.com)
-  * w3school (https://www.w3schools.com)
-  * Stack overflow (https://stackoverflow.com)
+
+  * w3school (https://www.w3schools.com) and Stack overflow (https://stackoverflow.com) were consulted as i develop the project.
+
+
+ * The map on the contact page was implemented using
+  [View on Google Maps](https://www.google.com/maps)
+
+ * Favicon image was taken from
+[ Find Spa Massage Icons on Flaticon](https://www.flaticon.com/search?word=spa+massage& k=1740017815047&log-in=google)
+
+
    
 
    ## Acknowledgements

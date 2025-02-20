@@ -25,7 +25,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -49,7 +49,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     position: relative;
     transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -243,7 +243,7 @@ footer {
 
 @media (max-width: 600px) {
     header h1 {
-        font-size: 1.8rem; 
+        font-size: 1.6rem; 
     }
 
     nav ul li {
@@ -323,7 +323,7 @@ nav ul {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.rem;
+    font-size: 1.4rem;
     font-weight: bold;
     padding: 0.1rem 0.3rem;
 }
@@ -363,7 +363,7 @@ nav ul li a:hover {
 
     nav ul li a {
         padding: 0.8rem 1rem;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .menu-toggle:checked + nav ul + label .bar:nth-child(1) {
@@ -379,8 +379,5 @@ nav ul li a:hover {
     }
 
     
-    .welcome-message {
-        padding: 3rem;
-    }
 }
 
