@@ -58,7 +58,7 @@ The homepage serves as an introduction to Moon Light Spa which  contains the wel
 
 * About Page
 
-The about page shares the story of **moon light spa**, what we do , our mission to create awareness of the impotance of body massages and more. 
+The about page shares the story of **moon light spa**, what we do , our mission to create awareness of the importance of body massages and more. 
 
 
 ![Reference image](/assets/images/aboutpage.png)
