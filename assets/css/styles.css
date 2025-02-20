@@ -1,18 +1,11 @@
 
-/* 
-Global reset for common elements like body, headings, paragraphs, lists, and tables.
-Sets margins and paddings to zero for consistent styling across the page.
-*/
-
+/* General reset for spacing across elements */
 body, h1, h2, h3, p, ul, table, td, th, form, img {
     margin: 0;
     padding: 0;
 }
 
-/* 
-Body styles: Font family, background gradient, text color, and line height.
-*/
-
+/* Body styles */
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #a8e063, #56ab2f);
@@ -20,10 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* 
-Header styles: Background gradient, text color, padding, shadow, and positioning.
-*/
-
+/* Header styles */
 header {
     background: linear-gradient(135deg, #2e8b57, #006400);
     color: #fff;
@@ -34,20 +24,51 @@ header {
     position: relative;
 }
 
-/* 
-Navigation styles: Remove list bullets, align links, and transition effects for hover.
-*/
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    letter-spacing: 4px;
+}
 
+/* Navigation menu */
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 1rem 0 0 0;
 }
 
-/* 
-Section styles: Padding, margins, background, and shadow for container effect.
-*/
+nav ul li {
+    display: inline;
+    margin: 0 2.5rem;
+}
 
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+/* Section styling */
 section {
     padding: 3rem;
     margin: 2rem auto;
@@ -58,10 +79,7 @@ section {
     animation: fadeIn 1s ease-out;
 }
 
-/* 
-Fade-in animation keyframe for sections.
-*/
-
+/* Animation for fade-in effect */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -73,19 +91,12 @@ Fade-in animation keyframe for sections.
     }
 }
 
-/* 
-Price table layout: Flexbox layout for price tables with spacing.
-*/
-
+/* Price tables layout */
 .price-tables {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
-
-/* 
-Style for price table cards: Background, padding, shadow, and border.
-*/
 
 .price-table {
     flex: 1 1 30%;
@@ -97,19 +108,34 @@ Style for price table cards: Background, padding, shadow, and border.
     overflow: hidden;
 }
 
-/* 
-Table styles: Full width, border-collapse, and cell padding.
-*/
+.price-table h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #2e8b57;
+}
 
+/* Table styles */
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
-/* 
-Contact section layout: Flexbox layout for contact info and form.
-*/
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+}
 
+th {
+    background: #2e8b57;
+    color: #fff;
+    font-weight: bold;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Contact section layout */
 .contact-container {
     display: flex;
     justify-content: space-between;
@@ -117,9 +143,37 @@ Contact section layout: Flexbox layout for contact info and form.
     flex-wrap: wrap;
 }
 
-/* 
-Input and button styles: Form field and button design with focus effects.
-*/
+.contact-info-map {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-info-box, .contact-form-box {
+    background: #f1f1f1;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border: 3px solid #2e8b57;
+}
+
+.map-container {
+    margin-top: 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Form styles */
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+    color: #2e8b57;
+}
 
 input[type="text"], input[type="email"], textarea {
     width: 100%;
@@ -130,43 +184,77 @@ input[type="text"], input[type="email"], textarea {
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* 
-Button hover effect for background color change and scaling effect.
-*/
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #2e8b57;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: #2e8b57;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
 button:hover {
     background-color: #1b5e20;
     transform: scale(1.05);
 }
 
-/* 
-Mobile responsive styles: Adjust layout and font sizes for small screens.
-*/
+/* Thank-you message styling */
+#thank-you-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #e6ffe6;
+    color: #2e8b57;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+/* Footer styles */
+footer {
+    background: #006400;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+/* Mobile styles */
 @media (max-width: 600px) {
     header h1 {
         font-size: 1.6rem;
     }
+
     nav ul li {
         display: block;
         margin: 1rem 0;
         text-align: right;
     }
+
+    section {
+        padding: 1rem;
+    }
+
     .price-table {
         flex: 1 1 100%;
     }
+
     .contact-container {
         flex-direction: column;
     }
+
     button {
         width: 100%;
     }
 }
 
-/* 
-Image styling: Full width with border, shadow, and centering.
-*/
-
+/* Image styling */
 img {
     width: 100%;
     max-width: 100%;
@@ -178,10 +266,7 @@ img {
     margin: 0 auto;
 }
 
-/* 
-Hamburger menu styles for mobile: Hidden by default, shown when toggled.
-*/
-
+/* Hamburger menu for mobile */
 .hamburger {
     display: none;
     cursor: pointer;
@@ -197,10 +282,42 @@ Hamburger menu styles for mobile: Hidden by default, shown when toggled.
     z-index: 101;
 }
 
-/* 
-Mobile menu toggle when hamburger is clicked.
-*/
+.hamburger .bar {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
 
+.menu-toggle {
+    display: none;
+}
+
+/* Menu toggle visibility */
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0.1rem 0.3rem;
+}
+
+nav ul li a:hover {
+    background-color: #5d896f;
+}
+
+/* Mobile nav menu toggling */
 @media (max-width: 600px) {
     .hamburger {
         display: flex;
@@ -220,5 +337,27 @@ Mobile menu toggle when hamburger is clicked.
 
     .menu-toggle:checked + nav ul {
         display: flex;
+    }
+
+    nav ul li {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a {
+        padding: 0.8rem 1rem;
+        font-size: 1.5rem;
+    }
+
+    .menu-toggle:checked + nav ul + label .bar:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+
+    .menu-toggle:checked + nav ul + label .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle:checked + nav ul + label .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
     }
 }
